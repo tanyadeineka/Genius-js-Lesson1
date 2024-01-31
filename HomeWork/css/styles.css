@@ -1,11 +1,29 @@
 .btn-block {
     width: 80px;
     height: 80px;
-    outline: 2px solid red;
-    background-color: violet;
     margin-bottom: 30px;
 }
 .btn {
     width: 80px;
     height: 40px;
+}
+.tree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    list-style: none;
+}
+
+.liItem{
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid red;
+}
+
+.liItem.active{
+background-color: transparent;
+border: white;
+color: white;
+
 }
